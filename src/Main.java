@@ -35,7 +35,22 @@ public class Main {
         }
 
         //exercise 4
-        short deliveryTime = 95;
+        int deliveryTime = 95;
+        if (deliveryTime <= 20) {
+            System.out.println("Время доставки 1 день");
+        }
+        if (deliveryTime > 20 && deliveryTime<= 60)
+        {
+            System.out.println("Время доставки 2 дня");
+        }
+        else if (deliveryTime > 60 && deliveryTime <100) {
+            System.out.println("Время доставки 3 дня");
+        }
+        else {
+            System.out.println("Доставка в ваш район невозможна");
+        }
+
+
 
         //exercise 4
         short month = 4;
