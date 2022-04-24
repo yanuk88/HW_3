@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         //exercise1
-        int clientOS = 1;
+        int clientOS = 0;
         if (clientOS == 0) {
             System.out.println("Установите версию приложения для iOS по ссылке");
         }
@@ -12,18 +12,22 @@ public class Main {
 
         //exercise2
         short clientDeviceYear = 2010;
-        if (clientOS == 0)
-            if (clientDeviceYear >= 2015) {
-            System.out.printf("Установите версию приложения для iOS по ссылке");
-        } else {
-            System.out.println("Установите облегченную версию приложения для iOS по ссылке");
-        }
-        if (clientOS == 1)
-            if (clientDeviceYear >= 2015) {
-                System.out.println("Установите версию приложения для Android по ссылке");
-            } else {
-                System.out.println("Установите облегченную версию приложения для Android по ссылке");
+
+        if (clientDeviceYear >= 2015 && clientOS== 0) {
+                System.out.printf("Установите версию приложения для iOS по ссылке");
             }
+        else if (clientDeviceYear < 2015 && clientOS== 0)
+        {
+            System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+            }
+        else if (clientDeviceYear >= 2015 && clientOS== 1) {
+
+                    System.out.println("Установите версию приложения для Android по ссылке");
+                }
+        else if (clientDeviceYear < 2015 && clientOS== 0){
+                    System.out.println("Установите облегченную версию приложения для Android по ссылке");
+                }
+
 
         //exercise 3
         short year = 2020;
@@ -35,15 +39,15 @@ public class Main {
         }
 
         //exercise 4
-        int deliveryTime = 95;
-        if (deliveryTime <= 20) {
+        int deliveryDistance = 95;
+        if (deliveryDistance <= 20) {
             System.out.println("Время доставки 1 день");
         }
-        if (deliveryTime > 20 && deliveryTime<= 60)
+        else if (deliveryDistance > 20 && deliveryDistance<= 60)
         {
             System.out.println("Время доставки 2 дня");
         }
-        else if (deliveryTime > 60 && deliveryTime <100) {
+        else if (deliveryDistance > 60 && deliveryDistance <100) {
             System.out.println("Время доставки 3 дня");
         }
         else {
@@ -52,7 +56,7 @@ public class Main {
 
 
 
-        //exercise 4
+        //exercise 5
         short month = 4;
         switch (month) {
             case 12:
