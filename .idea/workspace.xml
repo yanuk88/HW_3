@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b399e1cd-2ad5-4b4b-91f5-70fd2df2cfce" name="Changes" comment="done">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="b399e1cd-2ad5-4b4b-91f5-70fd2df2cfce" name="Changes" comment="Доработано" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +70,7 @@
       <updated>1650550021711</updated>
       <workItem from="1650550023471" duration="11270000" />
       <workItem from="1650601646093" duration="1320000" />
-      <workItem from="1650712581516" duration="1785000" />
+      <workItem from="1650712581516" duration="2169000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1650550223244</created>
@@ -103,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650561737443</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Доработано">
+      <created>1650786435152</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650786435152</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +128,7 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="2 commit" />
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="Доработано" />
+    <option name="LAST_COMMIT_MESSAGE" value="Доработано" />
   </component>
 </project>
